@@ -1,0 +1,160 @@
+algorithm_cutoff_memory: '?'
+algorithm_cutoff_time: 1800
+default_steps:
+- step_1
+feature_steps:
+  step_1:
+    provides:
+    - feature_1
+    - feature_2
+    - feature_3
+    - feature_4
+    - feature_5
+    - feature_6
+    - feature_7
+    - feature_8
+    - feature_9
+    - feature_10
+    - feature_11
+    - feature_12
+    - feature_13
+    - feature_14
+    - feature_15
+    - feature_16
+    - feature_17
+    - feature_18
+    - feature_19
+    - feature_20
+    - feature_21
+    - feature_22
+    - feature_23
+    - feature_24
+    - feature_25
+    - feature_26
+    - feature_27
+    - feature_28
+    - feature_29
+    - feature_30
+    - feature_31
+    - feature_32
+    - feature_33
+    - feature_34
+    - feature_35
+    - feature_36
+    - feature_37
+    - feature_38
+    - feature_39
+    - feature_40
+    - feature_41
+    - feature_42
+    - feature_43
+    - feature_44
+    - feature_45
+    - feature_46
+features_cutoff_memory: '?'
+features_cutoff_time: 1800
+features_deterministic:
+- feature_1
+- feature_2
+- feature_3
+- feature_4
+- feature_5
+- feature_6
+- feature_7
+- feature_8
+- feature_9
+- feature_10
+- feature_11
+- feature_12
+- feature_13
+- feature_14
+- feature_15
+- feature_16
+- feature_17
+- feature_18
+- feature_19
+- feature_20
+- feature_21
+- feature_22
+- feature_23
+- feature_24
+- feature_25
+- feature_26
+- feature_27
+- feature_28
+- feature_29
+- feature_30
+- feature_31
+- feature_32
+- feature_33
+- feature_34
+- feature_35
+- feature_36
+- feature_37
+- feature_38
+- feature_39
+- feature_40
+- feature_41
+- feature_42
+- feature_43
+- feature_44
+- feature_45
+- feature_46
+features_stochastic: null
+maximize:
+- false
+metainfo_algorithms:
+  algorithm_1:
+    deterministic: true
+  algorithm_10:
+    deterministic: true
+  algorithm_11:
+    deterministic: true
+  algorithm_12:
+    deterministic: true
+  algorithm_13:
+    deterministic: true
+  algorithm_14:
+    deterministic: true
+  algorithm_15:
+    deterministic: true
+  algorithm_16:
+    deterministic: true
+  algorithm_17:
+    deterministic: true
+  algorithm_18:
+    deterministic: true
+  algorithm_19:
+    deterministic: true
+  algorithm_2:
+    deterministic: true
+  algorithm_20:
+    deterministic: true
+  algorithm_21:
+    deterministic: true
+  algorithm_22:
+    deterministic: true
+  algorithm_23:
+    deterministic: true
+  algorithm_24:
+    deterministic: true
+  algorithm_3:
+    deterministic: true
+  algorithm_4:
+    deterministic: true
+  algorithm_5:
+    deterministic: true
+  algorithm_6:
+    deterministic: true
+  algorithm_7:
+    deterministic: true
+  algorithm_8:
+    deterministic: true
+  algorithm_9:
+    deterministic: true
+number_of_feature_steps: 1
+performance_measures:
+- PAR10
+performance_type:
+- runtime
+scenario_id: Quill

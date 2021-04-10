@@ -1,0 +1,951 @@
+{
+  "data": [
+    [
+      [
+        1,
+        "8",
+        0
+      ],
+      [
+        500.07923631578944,
+        0.23918700218200684,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "4",
+        0
+      ],
+      [
+        3753.0917985,
+        0.23897480964660645,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        2,
+        "8",
+        0
+      ],
+      [
+        4178.327888947369,
+        0.20116400718688965,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "1",
+        0
+      ],
+      [
+        4027.460751,
+        0.23944091796875,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        3,
+        "4",
+        0
+      ],
+      [
+        3777.2917985,
+        0.7843937873840332,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "9",
+        0
+      ],
+      [
+        3973.156974263158,
+        0.24487686157226562,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        4,
+        "8",
+        0
+      ],
+      [
+        611.9213415789475,
+        0.12817597389221191,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        1,
+        "5",
+        0
+      ],
+      [
+        11303.29981575,
+        0.24309897422790527,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "8",
+        0
+      ],
+      [
+        340.8160784210526,
+        0.7412137985229492,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "1",
+        0
+      ],
+      [
+        3837.860751,
+        0.7503058910369873,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "4",
+        0
+      ],
+      [
+        469.9916234999999,
+        0.7314591407775879,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "5",
+        0
+      ],
+      [
+        4374.344890750001,
+        0.6963851451873779,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "9",
+        0
+      ],
+      [
+        270.3683532105263,
+        0.7365999221801758,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "7",
+        0
+      ],
+      [
+        4045.1718739999997,
+        0.7342391014099121,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        6,
+        "8",
+        0
+      ],
+      [
+        415.55292052631575,
+        0.484205961227417,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "3",
+        0
+      ],
+      [
+        514.7653938999999,
+        0.7394602298736572,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        7,
+        "7",
+        0
+      ],
+      [
+        4047.721874,
+        0.7236199378967285,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "2",
+        0
+      ],
+      [
+        3802.8920811999997,
+        0.7300028800964355,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        8,
+        "8",
+        0
+      ],
+      [
+        598.4476573684211,
+        0.617988109588623,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "10",
+        0
+      ],
+      [
+        3864.077005894737,
+        0.7388558387756348,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        9,
+        "3",
+        0
+      ],
+      [
+        3914.0578938999997,
+        0.13564205169677734,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        5,
+        "6",
+        0
+      ],
+      [
+        445.0415164,
+        0.7411620616912842,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        10,
+        "9",
+        0
+      ],
+      [
+        258.315721631579,
+        0.3841891288757324,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        10,
+        "3",
+        0
+      ],
+      [
+        526.4153939,
+        0.3675110340118408,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        10,
+        "5",
+        0
+      ],
+      [
+        4397.79489075,
+        0.37158703804016113,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        11,
+        "3",
+        0
+      ],
+      [
+        3899.4078939,
+        0.20421600341796875,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        12,
+        "10",
+        0
+      ],
+      [
+        7640.144596473685,
+        0.338939905166626,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        13,
+        "6",
+        0
+      ],
+      [
+        3934.6553714,
+        0.28952598571777344,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        14,
+        "10",
+        0
+      ],
+      [
+        3865.6559532631577,
+        0.49341487884521484,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        15,
+        "2",
+        0
+      ],
+      [
+        314.4555512,
+        0.2127540111541748,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        15,
+        "1",
+        0
+      ],
+      [
+        407.419301,
+        0.21959495544433594,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        15,
+        "5",
+        0
+      ],
+      [
+        11053.69981575,
+        0.2176189422607422,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        15,
+        "10",
+        0
+      ],
+      [
+        3949.7612164210527,
+        0.21129894256591797,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        15,
+        "4",
+        0
+      ],
+      [
+        7342.6712234999995,
+        0.22605109214782715,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        15,
+        "3",
+        0
+      ],
+      [
+        3912.1078939,
+        0.21493196487426758,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        15,
+        "9",
+        0
+      ],
+      [
+        3988.8938163684215,
+        0.2243947982788086,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        16,
+        "3",
+        0
+      ],
+      [
+        3886.3078938999997,
+        0.6229040622711182,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        17,
+        "5",
+        0
+      ],
+      [
+        873.8848057500002,
+        0.4211740493774414,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        17,
+        "10",
+        0
+      ],
+      [
+        3865.0243743157894,
+        0.42085790634155273,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        17,
+        "3",
+        0
+      ],
+      [
+        3883.7078939,
+        0.42650771141052246,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        17,
+        "8",
+        0
+      ],
+      [
+        582.0266047368422,
+        0.4424710273742676,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ],
+    [
+      [
+        17,
+        "2",
+        0
+      ],
+      [
+        7393.460047999999,
+        0.4268300533294678,
+        {
+          "__enum__": "StatusType.SUCCESS"
+        },
+        {}
+      ]
+    ]
+  ],
+  "config_origins": {
+    "1": "Sobol",
+    "2": "Sobol",
+    "3": "Sobol",
+    "4": "Sobol",
+    "5": "Sobol",
+    "6": "Sobol",
+    "7": "Sobol",
+    "8": "Sobol",
+    "9": "Sobol",
+    "10": "Sobol",
+    "11": "Random Search (sorted)",
+    "12": "Random Search (sorted)",
+    "13": "Local Search",
+    "14": "Local Search",
+    "15": "Local Search",
+    "16": "Local Search",
+    "17": "Local Search"
+  },
+  "configs": {
+    "1": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": false,
+      "presolving": false,
+      "selector": "PairwiseRegressor",
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": false,
+      "rfreg:max_depth": 142832,
+      "rfreg:max_features": "log2",
+      "rfreg:min_samples_leaf": 12,
+      "rfreg:min_samples_split": 12,
+      "rfreg:n_estimators": 31
+    },
+    "2": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "most_frequent",
+      "pca": true,
+      "presolving": false,
+      "selector": "PairwiseClassifier",
+      "classifier": "XGBoost",
+      "pca_n_components": 1,
+      "xgb:alpha": 2.5,
+      "xgb:colsample_bylevel": 0.625,
+      "xgb:colsample_bytree": 0.875,
+      "xgb:eta": 0.25,
+      "xgb:gamma": 7.5,
+      "xgb:lambda": 3.25,
+      "xgb:max_delta_step": 7.5,
+      "xgb:max_depth": 3,
+      "xgb:min_child_weight": 15.0,
+      "xgb:num_round": 56,
+      "xgb:subsample": 0.2575
+    },
+    "3": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "mean",
+      "pca": false,
+      "presolving": true,
+      "selector": "PairwiseRegressor",
+      "pre:cutoff": 657,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": false,
+      "rfreg:max_depth": 1165,
+      "rfreg:max_features": "None",
+      "rfreg:min_samples_leaf": 4,
+      "rfreg:min_samples_split": 35,
+      "rfreg:n_estimators": 17
+    },
+    "4": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": true,
+      "presolving": false,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 5,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 12899,
+      "rfreg:max_features": "None",
+      "rfreg:min_samples_leaf": 59,
+      "rfreg:min_samples_split": 21,
+      "rfreg:n_estimators": 13
+    },
+    "5": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "mean",
+      "pca": false,
+      "presolving": true,
+      "selector": "PairwiseClassifier",
+      "classifier": "XGBoost",
+      "pre:cutoff": 199,
+      "xgb:alpha": 3.75,
+      "xgb:colsample_bylevel": 0.8125,
+      "xgb:colsample_bytree": 0.6875,
+      "xgb:eta": 0.375,
+      "xgb:gamma": 6.25,
+      "xgb:lambda": 2.125,
+      "xgb:max_delta_step": 1.25,
+      "xgb:max_depth": 9,
+      "xgb:min_child_weight": 17.5,
+      "xgb:num_round": 75,
+      "xgb:subsample": 0.87625
+    },
+    "6": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": true,
+      "presolving": true,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 13,
+      "pre:cutoff": 18,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 1581622,
+      "rfreg:max_features": "log2",
+      "rfreg:min_samples_leaf": 3,
+      "rfreg:min_samples_split": 59,
+      "rfreg:n_estimators": 75
+    },
+    "7": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "most_frequent",
+      "pca": false,
+      "presolving": false,
+      "selector": "PairwiseClassifier",
+      "classifier": "RandomForest",
+      "rf:bootstrap": false,
+      "rf:criterion": "entropy",
+      "rf:max_depth": 193934083,
+      "rf:max_features": "sqrt",
+      "rf:min_samples_leaf": 7,
+      "rf:min_samples_split": 7,
+      "rf:n_estimators": 75
+    },
+    "8": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "mean",
+      "pca": false,
+      "presolving": false,
+      "selector": "PairwiseClassifier",
+      "classifier": "RandomForest",
+      "rf:bootstrap": false,
+      "rf:criterion": "entropy",
+      "rf:max_depth": 475297,
+      "rf:max_features": "None",
+      "rf:min_samples_leaf": 3,
+      "rf:min_samples_split": 27,
+      "rf:n_estimators": 15
+    },
+    "9": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "most_frequent",
+      "pca": true,
+      "presolving": true,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 3,
+      "pre:cutoff": 361,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": false,
+      "rfreg:max_depth": 475297,
+      "rfreg:max_features": "sqrt",
+      "rfreg:min_samples_leaf": 9,
+      "rfreg:min_samples_split": 46,
+      "rfreg:n_estimators": 11
+    },
+    "10": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": false,
+      "presolving": true,
+      "selector": "PairwiseClassifier",
+      "classifier": "XGBoost",
+      "pre:cutoff": 33,
+      "xgb:alpha": 0.625,
+      "xgb:colsample_bylevel": 0.59375,
+      "xgb:colsample_bytree": 0.84375,
+      "xgb:eta": 0.9375,
+      "xgb:gamma": 6.875,
+      "xgb:lambda": 6.0625,
+      "xgb:max_delta_step": 3.125,
+      "xgb:max_depth": 7,
+      "xgb:min_child_weight": 1.25,
+      "xgb:num_round": 87,
+      "xgb:subsample": 0.071875
+    },
+    "11": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": true,
+      "presolving": false,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 19,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 336787749,
+      "rfreg:max_features": "log2",
+      "rfreg:min_samples_leaf": 3,
+      "rfreg:min_samples_split": 44,
+      "rfreg:n_estimators": 22
+    },
+    "12": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": true,
+      "presolving": false,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 1,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 23764,
+      "rfreg:max_features": "sqrt",
+      "rfreg:min_samples_leaf": 79,
+      "rfreg:min_samples_split": 55,
+      "rfreg:n_estimators": 50
+    },
+    "13": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": false,
+      "presolving": true,
+      "selector": "PairwiseRegressor",
+      "pre:cutoff": 946,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 19950,
+      "rfreg:max_features": "log2",
+      "rfreg:min_samples_leaf": 3,
+      "rfreg:min_samples_split": 73,
+      "rfreg:n_estimators": 42
+    },
+    "14": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "most_frequent",
+      "pca": true,
+      "presolving": true,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 10,
+      "pre:cutoff": 720,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 1581622,
+      "rfreg:max_features": "log2",
+      "rfreg:min_samples_leaf": 3,
+      "rfreg:min_samples_split": 59,
+      "rfreg:n_estimators": 78
+    },
+    "15": {
+      "StandardScaler": false,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": true,
+      "presolving": true,
+      "selector": "PairwiseClassifier",
+      "classifier": "XGBoost",
+      "pca_n_components": 14,
+      "pre:cutoff": 28,
+      "xgb:alpha": 6.120380434613092,
+      "xgb:colsample_bylevel": 0.7235668094129553,
+      "xgb:colsample_bytree": 0.8816562893268982,
+      "xgb:eta": 0.7974934308988469,
+      "xgb:gamma": 6.831095981416876,
+      "xgb:lambda": 6.532884336884893,
+      "xgb:max_delta_step": 0.4816007288220374,
+      "xgb:max_depth": 1,
+      "xgb:min_child_weight": 18.977364017863053,
+      "xgb:num_round": 83,
+      "xgb:subsample": 0.8639391061075742
+    },
+    "16": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "mean",
+      "pca": true,
+      "presolving": false,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 18,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 26,
+      "rfreg:max_features": "None",
+      "rfreg:min_samples_leaf": 2,
+      "rfreg:min_samples_split": 89,
+      "rfreg:n_estimators": 79
+    },
+    "17": {
+      "StandardScaler": true,
+      "fgroup_base": true,
+      "imputer_strategy": "median",
+      "pca": true,
+      "presolving": true,
+      "selector": "PairwiseRegressor",
+      "pca_n_components": 13,
+      "pre:cutoff": 14,
+      "regressor": "RandomForestRegressor",
+      "rfreg:bootstrap": true,
+      "rfreg:max_depth": 655835115,
+      "rfreg:max_features": "log2",
+      "rfreg:min_samples_leaf": 47,
+      "rfreg:min_samples_split": 22,
+      "rfreg:n_estimators": 68
+    }
+  }
+}

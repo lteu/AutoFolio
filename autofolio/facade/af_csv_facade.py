@@ -34,6 +34,8 @@ class AFCsvFacade(object):
 
         self.af = AutoFolio(random_seed=seed)
         self.logger = logging.getLogger("AF Facade")
+        # self.logger.setLevel(0)
+        logging.getLogger().setLevel(logging.WARNING)
 
     def fit(self,
             config:Configuration=None,
@@ -75,8 +77,9 @@ class AFCsvFacade(object):
         """ get predicted algorithm for given meta-feature vector"""
         af = AutoFolio(random_seed=42) # random seed doesn't matter here
         pred = af.read_model_and_predict(model_fn=load_fn, feature_vec=vec)
-        print("Selected Schedule [(algorithm, budget)]: %s" % (pred))
-        return pred[0][0]
+        return pred
+        # print("Selected Schedule [(algorithm, budget)]: %s" % (pred))
+        # return pred[0][0]
 
 
 

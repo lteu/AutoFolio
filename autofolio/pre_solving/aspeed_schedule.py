@@ -58,19 +58,27 @@ class Aspeed(object):
         '''
         self.logger = logging.getLogger("Aspeed")
 
+        root_arr = os.path.realpath(__file__).split('/')[:-3]
+        root = '/'.join(root_arr) 
+
         if not runsolver:
-            self.runsolver = os.path.join(
-                os.path.dirname(sys.argv[0]), "..", "aspeed", "runsolver")
+            self.runsolver = os.path.join(root, "aspeed", "runsolver")
+            # self.runsolver = os.path.join(
+            #     os.path.dirname(sys.argv[0]), "..", "aspeed", "runsolver")
         else:
             self.runsolver = runsolver
+
         if not clingo:
-            self.clingo = os.path.join(
-                os.path.dirname(sys.argv[0]), "..", "aspeed", "clingo")
+            self.clingo = os.path.join(root, "aspeed", "clingo")
+            # self.clingo = os.path.join(
+            #     os.path.dirname(sys.argv[0]), "..", "aspeed", "clingo")
         else:
             self.clingo = clingo
+            
         if not enc_fn:
-            self.enc_fn = os.path.join(
-                os.path.dirname(sys.argv[0]), "..", "aspeed", "enc1.lp")
+            self.enc_fn = os.path.join(root, "aspeed",  "enc1.lp")
+            # self.enc_fn = os.path.join(
+            #     os.path.dirname(sys.argv[0]), "..", "aspeed", "enc1.lp")
         else:
             self.enc_fn = enc_fn
 

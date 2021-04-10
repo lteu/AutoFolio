@@ -12,7 +12,7 @@ feat_fn = "feats.csv"
 # will be created (or overwritten) by AutoFolio
 model_fn = "af_model.pkl"
 
-af = AFCsvFacade(perf_fn=perf_fn, feat_fn=feat_fn)
+af = AFCsvFacade(perf_fn=perf_fn, feat_fn=feat_fn,objective='runtime')
 
 # fit AutoFolio; will use default hyperparameters of AutoFolio
 af.fit()

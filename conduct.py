@@ -13,8 +13,6 @@ __version__ = "2.1.0"
 
 
 def run(scenario):
-	# perf_fn = "perf.csv"
-	# feat_fn = "feats.csv"
 
 	perf_fn = "csv/train/"+scenario+"/runtime.csv"
 	feat_fn = "csv/train/"+scenario+"/features.csv"
@@ -61,9 +59,6 @@ def run(scenario):
 		pred = AFCsvFacade.load_and_predict(vec=vec, load_fn=model_fn)
 		pred[-1] = pred[-1][0]
 		results[i] = pred
-		# print(pred)
-		# print(i,pred)
-
 
 	# result_dir = "results-autofolio/"+scenario+".json"
 	result_dir = "results-autofolio"
@@ -74,11 +69,9 @@ def run(scenario):
 		json.dump(results, outfile)
 
 
-	# print(pred)
-
 
 def main(args):
-	# print(1)
+
 	scenarios =[
 		"Caren",
 		"Mira",
@@ -92,7 +85,6 @@ def main(args):
 
 	for scenario_name in scenarios:
 		for indx in range(1,11):
-		# for indx in range(1,2):
 			scenario = scenario_name+str(indx)
 			run(scenario)
 

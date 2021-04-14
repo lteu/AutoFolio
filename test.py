@@ -33,17 +33,17 @@ def run(scenario):
 	af = AFCsvFacade(perf_fn=perf_fn, feat_fn=feat_fn, maximize=False, objective='runtime',runtime_cutoff=timeout)
 
 	# # fit AutoFolio; will use default hyperparameters of AutoFolio
-	af.fit()
+	af.fit(save_fn=model_fn)
 
-	# # tune AutoFolio's hyperparameter configuration for 4 seconds
-	config = af.tune(wallclock_limit=900)
-
+	# ===================== TUNING ============================================
+	# tune AutoFolio's hyperparameter configuration for 4 seconds
+	config = af.tune(wallclock_limit=60)
 	# # evaluate configuration using a 10-fold cross validation
 	score = af.cross_validation(config=config)
-
 	# # re-fit AutoFolio using the (hopefully) better configuration
 	# # and save model to disk
 	af.fit(config=config, save_fn=model_fn)
+	# =================================================================
 
 	# # load AutoFolio model and
 	# # get predictions for new meta-feature vector
@@ -72,21 +72,12 @@ def run(scenario):
 
 def main(args):
 
-	scenarios =[
-		"Caren",
-		"Mira",
-		"Magnus",
-		"Monty",
-		"Quill",
-		"Bado",
-		"Svea",
-		"Sora"
-	]
+	# scenario_name = "Caren2"
+	# scenario_name = "Quill1"
+	scenario_name = "Monty5"
 
-	for scenario_name in scenarios:
-		for indx in range(1,11):
-			scenario = scenario_name+str(indx)
-			run(scenario)
+	run(scenario_name)
+
 
 
 	

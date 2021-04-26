@@ -1,0 +1,53 @@
+algorithm_cutoff_memory: '?'
+algorithm_cutoff_time: 3600.0
+algorithms_deterministic: '?'
+algorithms_stochastic: ''
+default_steps:
+- ALL
+feature_steps:
+  ALL:
+    provides:
+    - reducedVars
+    - POSNEG.RATIO.CLAUSE.min
+    - Basic.featuretime
+    - HORNY.VAR.entropy
+    - VG.mean
+features_cutoff_memory: '?'
+features_cutoff_time: '?'
+features_deterministic:
+- reducedVars
+- POSNEG.RATIO.CLAUSE.min
+- Basic.featuretime
+- HORNY.VAR.entropy
+- VG.mean
+features_stochastic: []
+maximize:
+- false
+metainfo_algorithms:
+  MaxHS:
+    configuration: ''
+    deterministic: 'true'
+  Open.WBO.g:
+    configuration: ''
+    deterministic: 'true'
+  Open.WBO.ms:
+    configuration: ''
+    deterministic: 'true'
+  Open.WBO.ms.pre:
+    configuration: ''
+    deterministic: 'true'
+  QMaxSAT2018:
+    configuration: ''
+    deterministic: 'true'
+  UWrMaxSAT:
+    configuration: ''
+    deterministic: 'true'
+  maxino2018:
+    configuration: ''
+    deterministic: 'true'
+number_of_feature_steps: 1.0
+performance_measures:
+- runtime
+performance_type:
+- runtime
+scenario_id: MAXSAT19-UCMS

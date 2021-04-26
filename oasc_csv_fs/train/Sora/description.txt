@@ -1,0 +1,63 @@
+algorithm_cutoff_memory: '?'
+algorithm_cutoff_time: 5000
+default_steps:
+- step_9
+- step_1
+feature_steps:
+  step_1:
+    provides:
+    - feature_31
+  step_11:
+    provides:
+    - feature_356
+  step_12:
+    provides:
+    - feature_379
+    requires:
+    - step_1
+  step_8:
+    provides:
+    - feature_242
+    requires:
+    - step_1
+  step_9:
+    provides:
+    - feature_289
+features_cutoff_memory: '?'
+features_cutoff_time: 5000
+features_deterministic:
+- feature_289
+- feature_356
+- feature_31
+- feature_379
+- feature_242
+features_stochastic: null
+maximize:
+- false
+metainfo_algorithms:
+  algorithm_1:
+    deterministic: true
+  algorithm_10:
+    deterministic: true
+  algorithm_2:
+    deterministic: true
+  algorithm_3:
+    deterministic: true
+  algorithm_4:
+    deterministic: true
+  algorithm_5:
+    deterministic: true
+  algorithm_6:
+    deterministic: true
+  algorithm_7:
+    deterministic: true
+  algorithm_8:
+    deterministic: true
+  algorithm_9:
+    deterministic: true
+number_of_feature_steps: 16
+performance_measures:
+- PAR10
+performance_type:
+- runtime
+scenario_id: Sora

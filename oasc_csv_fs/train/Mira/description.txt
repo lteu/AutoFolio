@@ -1,0 +1,40 @@
+algorithm_cutoff_memory: '?'
+algorithm_cutoff_time: 7200
+default_steps:
+- step_1
+feature_steps:
+  step_1:
+    provides:
+    - feature_59
+    - feature_60
+    - feature_62
+    - feature_68
+    - feature_92
+features_cutoff_memory: '?'
+features_cutoff_time: 7200
+features_deterministic:
+- feature_59
+- feature_60
+- feature_62
+- feature_68
+- feature_92
+features_stochastic: null
+maximize:
+- false
+metainfo_algorithms:
+  algorithm_1:
+    deterministic: true
+  algorithm_2:
+    deterministic: true
+  algorithm_3:
+    deterministic: true
+  algorithm_4:
+    deterministic: true
+  algorithm_5:
+    deterministic: true
+number_of_feature_steps: 1
+performance_measures:
+- PAR10
+performance_type:
+- runtime
+scenario_id: Mira

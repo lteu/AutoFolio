@@ -78,18 +78,18 @@ def main(args):
 	"Caren",
 	"Mira",
 	"Magnus",
-	# "Monty",
-	# "Quill",
-	# "Bado",
-	# "Svea",
-	# "Sora"
+	 "Monty",
+	 "Quill",
+	 "Bado",
+	 "Svea",
+	 "Sora"
 	]
 
-	# scenarios +=[
-	# 'MAXSAT19-UCMS',
-	# 'SAT18-EXP',
-	# 'GLUHACK-2018'
-	# ]
+	scenarios +=[
+	 'MAXSAT19-UCMS',
+	 'SAT18-EXP',
+	 'GLUHACK-2018'
+         ]
 
 	# scenario_name = "Caren2"
 	# scenario_name = "Quill1"

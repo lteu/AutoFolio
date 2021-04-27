@@ -63,8 +63,8 @@ def run(scenario,path):
 
 	# result_dir = "results-autofolio/"+scenario+".json"
 	# result_dir = "results-autofolio"
-	result_dir = "results-oasc-csv"
-	# result_dir = "results-oasc-csv-fs"
+	# result_dir = "results-oasc-csv"
+	result_dir = "results-oasc-csv-fs"
 	result_path = result_dir+"/"+scenario+".json"
 	if not os.path.exists(result_dir):
 		os.makedirs(result_dir)
@@ -97,8 +97,8 @@ def main(args):
 
 	# run(scenario_name)
 	# path = "csv"
-	path = "oasc_csv"
-	# path = "oasc_csv_fs"
+	# path = "oasc_csv"
+	path = "oasc_csv_fs"
 
 	for scenario_name in scenarios:
 		run(scenario_name,path)

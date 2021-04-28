@@ -95,7 +95,7 @@ def main(args):
 	#      scenarios = ["Monty5"]
 	# scenario_name = "Caren2"
 	# scenario_name = "Quill1"
-
+	path = "csv"
 	scenario_name = "Monty5"
 	run(scenario_name,path)
 	# run(scenario_name)

@@ -91,17 +91,21 @@ def main(args):
 	 'GLUHACK-2018'
          ]
 
+
+  #      scenarios = ["Monty5"]
 	# scenario_name = "Caren2"
 	# scenario_name = "Quill1"
-	# scenario_name = "Monty5"
 
+        scenario_name = "Monty5"
+        run(scenario_name,path)
 	# run(scenario_name)
 	# path = "csv"
 	# path = "oasc_csv"
-	path = "oasc_csv_fs"
+	# path = "oasc_csv_fs"
 
-	for scenario_name in scenarios:
-		run(scenario_name,path)
+ #       path = "csv"
+#	for scenario_name in scenarios:
+#		run(scenario_name,path)
 
 
 

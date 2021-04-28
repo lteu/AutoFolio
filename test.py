@@ -78,34 +78,34 @@ def main(args):
 	"Caren",
 	"Mira",
 	"Magnus",
-	 "Monty",
-	 "Quill",
-	 "Bado",
-	 "Svea",
-	 "Sora"
+	"Monty",
+	"Quill",
+	"Bado",
+	"Svea",
+	"Sora"
 	]
 
 	scenarios +=[
-	 'MAXSAT19-UCMS',
-	 'SAT18-EXP',
-	 'GLUHACK-2018'
-         ]
+	'MAXSAT19-UCMS',
+	'SAT18-EXP',
+	'GLUHACK-2018'
+	]
 
 
-  #      scenarios = ["Monty5"]
+	#      scenarios = ["Monty5"]
 	# scenario_name = "Caren2"
 	# scenario_name = "Quill1"
 
-        scenario_name = "Monty5"
-        run(scenario_name,path)
+	scenario_name = "Monty5"
+	run(scenario_name,path)
 	# run(scenario_name)
 	# path = "csv"
 	# path = "oasc_csv"
 	# path = "oasc_csv_fs"
 
- #       path = "csv"
-#	for scenario_name in scenarios:
-#		run(scenario_name,path)
+	#       path = "csv"
+	#	for scenario_name in scenarios:
+	#		run(scenario_name,path)
 
 
 

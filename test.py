@@ -38,15 +38,15 @@ def run(scenario,path):
 
 	# ===================== TUNING ============================================
 	# tune AutoFolio's hyperparameter configuration for 4 seconds
-	# config = af.tune(wallclock_limit=60)
-	# # evaluate configuration using a 10-fold cross validation
-	# score = af.cross_validation(config=config)
-	# print('CV score',score)
-	# # re-fit AutoFolio using the (hopefully) better configuration
-	# # and save model to disk
-	# af.fit(config=config, save_fn=model_fn)
-	# score = af.cross_validation(config=config)
-	# print('CV score',score)
+	config = af.tune(wallclock_limit=600)
+	# evaluate configuration using a 10-fold cross validation
+	score = af.cross_validation(config=config)
+	print('CV score',score)
+	# re-fit AutoFolio using the (hopefully) better configuration
+	# and save model to disk
+	af.fit(config=config, save_fn=model_fn)
+	score = af.cross_validation(config=config)
+	print('CV score',score)
 	# =================================================================
 
 	pref_fn = path+"/test/"+scenario+"/features.csv"
@@ -63,8 +63,8 @@ def run(scenario,path):
 
 	# result_dir = "results-autofolio/"+scenario+".json"
 	# result_dir = "results-autofolio"
-	# result_dir = "results-oasc-csv"
-	result_dir = "results-oasc-csv-fs"
+	result_dir = "results-oasc-csv"
+	# result_dir = "results-oasc-csv-fs"
 	result_path = result_dir+"/"+scenario+".json"
 	if not os.path.exists(result_dir):
 		os.makedirs(result_dir)
@@ -95,8 +95,10 @@ def main(args):
 	#      scenarios = ["Monty5"]
 	# scenario_name = "Caren2"
 	# scenario_name = "Quill1"
-	path = "csv"
-	scenario_name = "Monty5"
+	# path = "csv"
+	path = "oasc_csv"
+	# scenario_name = "Monty5"
+	scenario_name = "Monty"
 	run(scenario_name,path)
 	# run(scenario_name)
 	# path = "csv"

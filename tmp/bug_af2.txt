@@ -1,0 +1,144 @@
+toliu@ismard:~/AutoFolio$ python3 test.py
+test.py:23: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  dic_description = yaml.load(stream)
+INFO:root:Init AutoFolio
+Configuration space object:
+  Hyperparameters:
+    StandardScaler, Type: Categorical, Choices: {True, False}, Default: True
+    classifier, Type: Categorical, Choices: {RandomForest, XGBoost}, Default: RandomForest
+    fgroup_all, Type: Categorical, Choices: {True}, Default: True
+    imputer_strategy, Type: Categorical, Choices: {mean, median, most_frequent}, Default: mean
+    pca, Type: Categorical, Choices: {True, False}, Default: False
+    pca_n_components, Type: UniformInteger, Range: [1, 20], Default: 7, on log-scale
+    pre:cutoff, Type: UniformInteger, Range: [1, 1800], Default: 180, on log-scale
+    presolving, Type: Categorical, Choices: {True, False}, Default: False
+    rf:bootstrap, Type: Categorical, Choices: {True, False}, Default: True
+    rf:criterion, Type: Categorical, Choices: {gini, entropy}, Default: gini
+    rf:max_depth, Type: UniformInteger, Range: [10, 2147483648], Default: 2147483648, on log-scale
+    rf:max_features, Type: Categorical, Choices: {sqrt, log2, None}, Default: sqrt
+    rf:min_samples_leaf, Type: UniformInteger, Range: [2, 100], Default: 10, on log-scale
+    rf:min_samples_split, Type: UniformInteger, Range: [2, 100], Default: 2, on log-scale
+    rf:n_estimators, Type: UniformInteger, Range: [10, 100], Default: 10, on log-scale
+  Conditions:
+    pca_n_components | pca in {True}
+    pre:cutoff | presolving in {True}
+    rf:bootstrap | classifier in {'RandomForest'}
+    rf:criterion | classifier in {'RandomForest'}
+    rf:max_depth | classifier in {'RandomForest'}
+    rf:max_features | classifier in {'RandomForest'}
+    rf:min_samples_leaf | classifier in {'RandomForest'}
+    rf:min_samples_split | classifier in {'RandomForest'}
+    rf:n_estimators | classifier in {'RandomForest'}
+
+WARNING:smac.facade.smac_hpo_facade.SMAC4HPO:Runtime as objective automatically activates log(y) transformation
+Process pynisher function call:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/pynisher/limit_function_call.py", line 163, in subprocess_func
+    for child in p.children(recursive=True):
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/psutil/__init__.py", line 270, in wrapper
+    return fun(self, *args, **kwargs)
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/psutil/__init__.py", line 897, in children
+    ppid_map = _ppid_map()
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/psutil/_pslinux.py", line 1497, in ppid_map
+    data = f.read()
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/pynisher/limit_function_call.py", line 70, in handler
+    raise (TimeoutException)
+pynisher.limit_function_call.TimeoutException
+Process pynisher function call:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/pynisher/limit_function_call.py", line 163, in subprocess_func
+    for child in p.children(recursive=True):
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/psutil/__init__.py", line 270, in wrapper
+    return fun(self, *args, **kwargs)
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/psutil/__init__.py", line 897, in children
+    ppid_map = _ppid_map()
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/psutil/_pslinux.py", line 1504, in ppid_map
+    dset = data[rpar + 2:].split()
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/pynisher/limit_function_call.py", line 70, in handler
+    raise (TimeoutException)
+pynisher.limit_function_call.TimeoutException
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+/home/academic/toliu/.local/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py:7633: RuntimeWarning: invalid value encountered in power
+  g1 = mu3 / np.power(mu2, 1.5)
+File "/home/academic/toliu/AutoFolio/autofolio/feature_preprocessing/feature_group_filtering.py", line 96, in transform
+    scenario.feature_data = scenario.feature_data[self.active_features]
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "/home/academic/toliu/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',\n       'feature_6', 'feature_7', 'feature_8', 'feature_9', 'feature_10',\n       'feature_11', 'feature_12', 'feature_13', 'feature_14', 'feature_15',\n       'feature_16', 'feature_17', 'feature_18', 'feature_19', 'feature_20',\n       'feature_21', 'feature_22', 'feature_23', 'feature_24', 'feature_25',\n       'feature_26', 'feature_27', 'feature_28', 'feature_29', 'feature_30',\n       'feature_31', 'feature_32', 'feature_33', 'feature_34', 'feature_35',\n       'feature_36', 'feature_37'],\n      dtype='object')] are in the [columns]"

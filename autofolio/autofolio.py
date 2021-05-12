@@ -467,7 +467,8 @@ class AutoFolio(object):
             Configuration
                 best incumbent configuration found by SMAC
         '''
-
+        # print(scenario.algorithm_cutoff_time)
+        # sys.exit('ok')
         wallclock_limit = autofolio_config.get("wallclock_limit", wallclock_limit)
         runcount_limit = autofolio_config.get("runcount_limit", runcount_limit)
 
@@ -475,10 +476,11 @@ class AutoFolio(object):
         max_fold = scenario.cv_data.max().max()
         max_fold = int(max_fold)
 
-        ac_scenario = Scenario({"run_obj": "quality",  # we optimize quality
+        ac_scenario = Scenario({"run_obj": "runtime",  # we optimize quality
                                 "runcount-limit": runcount_limit,
                                 "cs": self.cs,  # configuration space
                                 "deterministic": "true",
+                                'cutoff-time':scenario.algorithm_cutoff_time,
                                 "instances": [[str(i)] for i in range(1, max_fold+1)],
                                 "wallclock-limit": wallclock_limit,
                                 "output-dir" : "" if not autofolio_config.get("output-dir",None) else autofolio_config.get("output-dir") 
